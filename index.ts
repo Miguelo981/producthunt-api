@@ -1,0 +1,1 @@
+export { ProductHuntAPI } from '@/product-hunt.ts'
