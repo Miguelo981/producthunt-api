@@ -43,6 +43,15 @@ query Post ($first: Int, $order: PostsOrder, $featured: Boolean, $postedBefore: 
                 }
                 comments {
                     totalCount
+                    nodes {
+                        createdAt
+                        id
+                        body
+                        userId
+                        replies {
+                            totalCount
+                        }
+                    }
                 }
                 makers {
                     coverImage
