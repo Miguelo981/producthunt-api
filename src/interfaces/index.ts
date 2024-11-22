@@ -1,0 +1,7 @@
+export * from '@/interfaces/comment.ts'
+export * from '@/interfaces/post.ts'
+export * from '@/interfaces/shared.ts'
+export * from '@/interfaces/topic.ts'
+export * from '@/interfaces/user.ts'
+export * from '@/interfaces/product.ts'
+export * from '@/interfaces/product-hunt.ts'
