@@ -1,8 +1,8 @@
-import type { Maker, User } from "../interfaces/user.ts";
-import type { Media, PageInfo, Thumbnail } from "../interfaces/shared.ts";
-import type { ProductLink } from "../interfaces/product.ts";
-import type { Topic } from "../interfaces/topic.ts";
-import { Comment } from "../interfaces/comment.ts";
+import type { Maker, User } from "@/interfaces/user.ts";
+import type { Media, PageInfo, Thumbnail } from "@/interfaces/shared.ts";
+import type { ProductLink } from "@/interfaces/product.ts";
+import type { Topic } from "@/interfaces/topic.ts";
+import { Comment } from "@/interfaces/comment.ts";
 
 export type PostOrder = "VOTES" | "FEATURED_AT" | "RANKING" | "NEWEST"
 

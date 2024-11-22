@@ -1,6 +1,6 @@
-import type { Topic, TopicData, TopicOrder } from "../interfaces/topic.ts";
-import type { PostOrder, ProductHuntPostResponse, ProductHuntPostsResponse } from "../interfaces/post.ts";
-import { ProductHuntResponse } from "../types.ts";
+import type { Topic, TopicData, TopicOrder } from "@/interfaces/topic.ts";
+import type { PostOrder, ProductHuntPostResponse, ProductHuntPostsResponse } from "@/interfaces/post.ts";
+import { ProductHuntResponse } from "@/types.ts";
 
 /**
  * @export
