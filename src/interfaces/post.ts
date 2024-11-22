@@ -264,7 +264,7 @@ export interface PostEdge {
      * @type {PostNode}
      * @memberof PostEdge
      */
-    node?: PostNode
+    node?: Post
 }
 
 /**
