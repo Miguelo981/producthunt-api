@@ -1,4 +1,8 @@
 {
+  "name": "@miguelo/producthunt-api",
+  "version": "0.1.0",
+  "license": "MIT",
+  "exports": "./index.ts",
   "tasks": {
     "dev": "deno run --watch --allow-net test.ts",
     "build": "deno run -A scripts/build-npm.ts 0.1.0"
