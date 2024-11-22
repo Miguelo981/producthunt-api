@@ -1,11 +1,9 @@
-import type { ConfigurationParameters, ProductHuntResponse, ProductHuntResponseLimit, RequestMethod } from "@/types.ts";
-import { PRODUCTHUNT_API_URL } from "@/constants.ts";
-import type { IProductHuntAPI, GetPostsRequest, GetTopicsRequest, ProductHuntTopicResponse, GetTopicRequest, ProductHuntTopicsResponse } from "@/interfaces/product-hunt.ts";
-import type { ConfigurationOptions } from "@/types.ts";
-import { POST_QUERY, POSTS_QUERY } from "@/queries/post.ts";
-import { TOPIC_QUERY, TOPICS_QUERY } from "@/queries/topic.ts";
-import type { ProductHuntPostResponse, ProductHuntPostsResponse } from "@/interfaces/post.ts";
-import { GetPostRequest } from "@/interfaces/product-hunt.ts";
+import type { ConfigurationParameters, ProductHuntResponse, ProductHuntResponseLimit, RequestMethod, ConfigurationOptions } from "./types.ts";
+import { PRODUCTHUNT_API_URL } from "./constants.ts";
+import type { IProductHuntAPI, GetPostsRequest, GetTopicsRequest, ProductHuntTopicResponse, GetTopicRequest, ProductHuntTopicsResponse, GetPostRequest } from "./interfaces/product-hunt.ts";
+import { POST_QUERY, POSTS_QUERY } from "./queries/post.ts";
+import { TOPIC_QUERY, TOPICS_QUERY } from "./queries/topic.ts";
+import type { ProductHuntPostResponse, ProductHuntPostsResponse } from "./interfaces/post.ts";
 
 
 export class ProductHuntAPI implements IProductHuntAPI {

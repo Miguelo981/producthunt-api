@@ -1,4 +1,4 @@
-import type { PageInfo } from "@/interfaces/shared.ts";
+import type { PageInfo } from "../interfaces/shared.ts";
 
 export type TopicOrder = "FOLLOWERS_COUNT" | "NEWEST"
 

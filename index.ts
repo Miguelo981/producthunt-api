@@ -1,1 +1,1 @@
-export { ProductHuntAPI } from '@/product-hunt.ts'
+export { ProductHuntAPI } from './src/product-hunt.ts'
